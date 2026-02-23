@@ -5,7 +5,7 @@ module "repositories" {
 }
 
 module "organization_basic" {
-  source = "github.com/bitterbridge/terraform-modules//terraform/modules/organization_basic?ref=v0.0.479"
+  source = "github.com/bitterbridge/terraform-modules//terraform/modules/organization_basic?ref=v0.0.481"
 
   organization_name = "bitterbridge"
   repositories      = keys(module.repositories.repositories)
