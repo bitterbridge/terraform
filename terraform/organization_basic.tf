@@ -1,5 +1,5 @@
 module "repositories" {
-  source = "github.com/bitterbridge/terraform-modules//terraform/modules/repositories?ref=v0.0.626"
+  source = "github.com/bitterbridge/terraform-modules//terraform/modules/repositories?ref=v0.0.633"
 
   organization_name = "bitterbridge"
 }
